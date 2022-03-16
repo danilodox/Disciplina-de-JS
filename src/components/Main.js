@@ -1,0 +1,15 @@
+import { Component } from 'react';
+
+export default class Main extends Component {
+    render() {
+      return (
+        <main>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ultrices eu sem vitae placerat. Sed at mattis diam, eget porta orci. Sed faucibus consequat vulputate. Sed imperdiet pretium eros eu sollicitudin. Curabitur vulputate, tellus in consectetur sagittis, neque arcu convallis urna, quis ultricies lectus risus eget velit. Nunc ullamcorper rhoncus augue, ut tristique urna aliquet vel. Praesent dolor metus, faucibus sit amet justo vitae, varius sollicitudin lorem. Aenean eget viverra est, at varius sapien. In viverra congue nibh, eget tincidunt lectus egestas vitae. Quisque nisl quam, luctus ut tellus ut, ultricies commodo lacus. In ante lorem, semper in eros sed, dictum bibendum ligula.</p>
+            <p>Mauris varius euismod libero a cursus. Sed risus risus, laoreet at tincidunt quis, congue ut augue. Nunc maximus felis nec pretium ornare. Fusce eleifend erat sed nisl sodales posuere. Praesent et augue mi. Ut pellentesque lacus vulputate auctor porta. Vivamus tincidunt ornare nibh. Donec vel neque et magna ultrices cursus eu convallis arcu. Mauris mattis, arcu at imperdiet rhoncus, quam lectus posuere justo, non laoreet nulla mauris a urna. Suspendisse ut ante sit amet est pellentesque varius vitae tristique dolor. Suspendisse dapibus libero urna, ornare facilisis magna hendrerit in. Cras lectus elit, bibendum nec accumsan scelerisque, ultrices id nulla. Aenean ac posuere felis. Nunc justo leo, fringilla nec pharetra id, congue et mi. Nam quis fermentum leo. Maecenas tempor rhoncus massa, non fringilla tortor consectetur sit amet.</p>
+            <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aenean tortor velit, congue sed finibus interdum, tempus vitae arcu. Curabitur rhoncus lobortis metus a pharetra. Etiam vitae ullamcorper leo. Sed feugiat dui semper lacus ullamcorper, eget vulputate sem euismod. Nam consequat tempor venenatis. Etiam non eros eu felis suscipit consequat. Proin lobortis, ante et condimentum efficitur, sem justo venenatis tortor, nec pellentesque sapien est id tortor. Vestibulum pretium massa in cursus accumsan. Donec tincidunt nunc felis, tristique ultrices urna posuere non</p>
+            <p><cite><strong>In at turpis pretium, ornare nulla ut, iaculis augue.</strong></cite> Nulla dapibus et ligula ut maximus. Nullam fermentum nisi quis ipsum egestas, ut vestibulum odio mollis. Nullam laoreet posuere accumsan. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nullam sagittis feugiat libero, vel fermentum ligula hendrerit a. Duis consectetur nisl non euismod vehicula. Phasellus vel tristique risus, a aliquam enim. Maecenas non feugiat erat. Cras scelerisque dui ullamcorper pellentesque bibendum. Vestibulum purus neque, congue sodales tempor nec, lacinia at turpis.</p>
+            <p><cite>Citação importante.</cite></p>
+        </main>
+      );
+    }
+}

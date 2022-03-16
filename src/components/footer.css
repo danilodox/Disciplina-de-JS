@@ -1,0 +1,30 @@
+.footerContainer {
+    display: flex;
+    width: 100%;
+    height: calc(100vh - 100px);
+    background-color: #222;
+}
+
+.footerItem{
+    flex: 1;
+    position: relative;
+    display: flex;
+}
+
+.footerCard{
+    flex: 1;
+    padding: 0 20px;
+}
+
+.footerLogo{
+    color: white;
+}
+
+.footerTitle{
+    font-size: 18px;
+    color: #b7903c;
+}
+
+.footerText{
+    color: lightgray;
+}
