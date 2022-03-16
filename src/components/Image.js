@@ -16,7 +16,7 @@ export default class HelloPersonal extends Component {
     }
 
     image() {
-        return (this.state.showImage && <abbr className='centro' title="Pica Pau"><img alt='Imagem do pica pau' src={ imagem }/></abbr>);
+        return (this.state.showImage && <abbr className='centro' title="Gatinho"><img alt='Imagem do gatinho' src={ imagem }/></abbr>);
     }
     
     render() {
